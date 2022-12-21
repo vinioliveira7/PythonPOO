@@ -23,7 +23,6 @@ else:
         for i in range(0, len(pessoas)):
             bd.append(vars(Pessoa(**pessoas[i])))
 
-
 while True:
     
     opcao = int(input("deseja cadastrar um usuário? "))
